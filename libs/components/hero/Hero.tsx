@@ -42,7 +42,7 @@ const Hero = () => {
 export default Hero
 
 const profile = {
-  name: 'The One',
+  name: 'Neomoji',
   bio: 'choice is an illusion. 😎',
   imageUrl: profileIMG,
   coverImageUrl: bgIMG,
