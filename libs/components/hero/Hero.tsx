@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 import React from 'react'
 
 import bgIMG from '../../../public/assets/bg.png'
