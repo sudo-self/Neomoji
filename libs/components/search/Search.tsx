@@ -38,7 +38,7 @@ const Search = () => {
       <div className="grid gap-[12px] relative grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {_.isEmpty(data) ? (
           <p className="text-center absolute top-0 left-0 right-0 text-#18191A dark:text-#E4E6EB">
-            No Results Found
+           I Have Spent My Entire Life Looking For You.
           </p>
         ) : (
           _.take(data, 1400).map((emoji, index) => (
