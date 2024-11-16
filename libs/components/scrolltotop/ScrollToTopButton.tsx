@@ -1,11 +1,10 @@
 'use client'
+
 import React, { useEffect, useState } from 'react'
 import { useWindowScroll } from 'react-use'
-import { ReactIcon } from '../ReactIcon/ReactIcon'
 
 const ScrollToTopButton = () => {
   const { y: pageYOffset } = useWindowScroll()
-  // const pageYOffset = 0
   const [showScrollTop, setShowScrollTop] = useState(false)
 
   useEffect(() => {
@@ -15,13 +14,22 @@ const ScrollToTopButton = () => {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 
   return (
-    <a
-      className={showScrollTop ? 'scroll_top bottom-[1.5rem]' : 'scroll_top'}
-      onClick={scrollTop}
-    >
-      <ReactIcon icon="ImArrowUp2" />
-    </a>
+    <div>
+      {showScrollTop && (
+        <button
+          onClick={scrollTop}
+          className="fixed bottom-6 right-6 z-50 cursor-pointer"
+        >
+          <img
+            src="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/elevator.png"
+            alt="Scroll to top"
+            className="w-12 h-12"
+          />
+        </button>
+      )}
+    </div>
   )
 }
 
 export default ScrollToTopButton
+
