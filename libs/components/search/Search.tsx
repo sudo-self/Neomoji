@@ -30,7 +30,7 @@ const Search = () => {
     <section className="container !max-w-[1024px] flex flex-col gap-[2rem] p-[2rem_0]">
       <input
         className="focus:outline-0 p-[12px] rounded-[8px] shadow-[0_1px_2px_rgba(0,0,0,0.2)] m-auto w-full sm:w-[500px] dark:bg-[#18191A] dark:text-[#E4E6EB]"
-        placeholder="Search for a keyword..."
+        placeholder="it has already begun..."
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
