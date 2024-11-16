@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>emojidb 🙂</title>
+      <title>emojibro 👬</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="keywords"
@@ -12,7 +12,7 @@ export default function Head() {
         content="A fun and interactive emoji collection website for sharing and copying your favorite emojis."
       />
       <meta property="og:title" content="Ohmoji" />
-      <meta property="og:url" content="https://emojidb.vercel.app/" />
+      <meta property="og:url" content="https://emojibro.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta
         property="og:description"
