@@ -42,8 +42,8 @@ const Hero = () => {
 export default Hero
 
 const profile = {
-  name: 'Imran Baitham',
-  bio: 'Welcome to my emojidb. 😍',
+  name: '8-Bit Bro',
+  bio: 'This Be Emoji Bro. 🕶️',
   imageUrl: profileIMG,
   coverImageUrl: bgIMG,
 }
