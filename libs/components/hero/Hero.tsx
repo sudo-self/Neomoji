@@ -2,7 +2,7 @@
 import React from 'react'
 
 import bgIMG from '../../../public/assets/bg.png'
-import profileIMG from '../../../public/assets/imran.jpeg'
+import profileIMG from '../../../public/assets/jesse.jpeg'
 
 const Hero = () => {
   return (
