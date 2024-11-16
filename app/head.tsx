@@ -41,7 +41,7 @@ export default function Head() {
       <meta name="theme-color" content="#ffffff" />
 
       {/* <!-- Facebook Meta Tags --> */}
-      <meta property="og:url" content="https://emojidb.vercel.app/" />
+      <meta property="og:url" content="https://emojibro.vercel.app/" />
       <meta property="og:title" content="Ohmoji" />
       <meta
         property="og:description"
@@ -51,8 +51,8 @@ export default function Head() {
 
       {/* <!-- Twitter Meta Tags --> */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="ohmoji.vercel.app/" />
-      <meta property="twitter:url" content="https://emojidb.vercel.app/" />
+      <meta property="twitter:domain" content="emojibro.vercel.app/" />
+      <meta property="twitter:url" content="https://emojibro.vercel.app/" />
       <meta name="twitter:title" content="Ohmoji" />
       <meta
         name="twitter:description"
