@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.vercel.neomoji.twa",
+      "sha256_cert_fingerprints": [
+        "8B:16:63:C5:40:FE:F0:30:8C:DA:E3:33:58:8C:EF:BC:91:92:63:81:95:E2:34:03:5D:24:EB:7C:43:CA:3D:FF"
+      ]
+    }
+  }
+]
