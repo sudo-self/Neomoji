@@ -4,18 +4,18 @@
   "description": "NeoMoji: It Has already begun.",
   "icons": [
     {
-      "src": "/favicon-196.png",
+      "src": "/icon-196.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/favicon-228.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#8ffe09",
+  "background_color": "#000",
   "display": "standalone",
   "start_url": "/",
   "scope": "/",
