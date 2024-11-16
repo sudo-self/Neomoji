@@ -5,60 +5,55 @@ export default function Head() {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="keywords"
-        content="emojis-dun, getemojis, getemojis, emojicopy, copyandpasteemoji, emojidb, emojisone, emoji, emoticon, icon, sticker, chat, social media, fun, communication, online messaging"
-      ></meta>
-      <meta
-        name="description"
-        content="A fun and interactive emoji collection website for sharing and copying your favorite emojis."
+        content="emoji matrix, emojibro, getemojis, emoji copy, emoji collection, fun emojis, emoji sharing, emoji database, emojisone, icons, emoticons, social media, online fun, emoji matrix display"
       />
-      <meta property="og:title" content="Ohmoji" />
+      <meta name="description" content="A matrix of emojis. It has already begun." />
+      <meta property="og:title" content="emojibro 👬" />
       <meta property="og:url" content="https://emojibro.vercel.app/" />
       <meta property="og:type" content="website" />
-      <meta
-        property="og:description"
-        content="A fun and interactive emoji collection website for sharing and copying your favorite emojis."
-      />
+      <meta property="og:description" content="A matrix of emojis. It has already begun." />
+      <meta property="og:image" content="https://emojibro.vercel.app/assets/image.png" />
+
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/apple-touch-icon.png"
+        href="https://emojibro.vercel.app/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon-32x32.png"
+        href="https://emojibro.vercel.app/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon-16x16.png"
+        href="https://emojibro.vercel.app/favicon-16x16.png"
       />
-      <link rel="manifest" href="/site.webmanifest" />
-      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+      <link rel="manifest" href="https://emojibro.vercel.app/site.webmanifest" />
+      <link
+        rel="mask-icon"
+        href="https://emojibro.vercel.app/safari-pinned-tab.svg"
+        color="#5bbad5"
+      />
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
 
-      {/* <!-- Facebook Meta Tags --> */}
+      {/* Facebook Meta Tags */}
       <meta property="og:url" content="https://emojibro.vercel.app/" />
-      <meta property="og:title" content="Ohmoji" />
-      <meta
-        property="og:description"
-        content="A fun and interactive emoji collection website for sharing and copying your favorite emojis."
-      />
-      <meta property="og:image" content="/assets/image.png" />
+      <meta property="og:title" content="emojibro 👬" />
+      <meta property="og:description" content="A matrix of emojis. It has already begun." />
+      <meta property="og:image" content="https://emojibro.vercel.app/assets/image.png" />
 
-      {/* <!-- Twitter Meta Tags --> */}
+      {/* Twitter Meta Tags */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="emojibro.vercel.app/" />
+      <meta property="twitter:domain" content="emojibro.vercel.app" />
       <meta property="twitter:url" content="https://emojibro.vercel.app/" />
-      <meta name="twitter:title" content="Ohmoji" />
-      <meta
-        name="twitter:description"
-        content="A fun and interactive emoji collection website for sharing and copying your favorite emojis."
-      />
-      <meta name="twitter:image" content="/assets/image.png" />
+      <meta name="twitter:title" content="emojibro 👬" />
+      <meta name="twitter:description" content="A matrix of emojis. It has already begun." />
+      <meta name="twitter:image" content="https://emojibro.vercel.app/assets/image.png" />
     </>
-  )
+  );
 }
+
