@@ -2,7 +2,8 @@
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
-import { ReactIcon } from '../ReactIcon/ReactIcon'
+import { SiIterm2 } from "react-icons/si";
+import { SiMultisim } from "react-icons/si";
 
 const Navbar = () => {
   const { systemTheme, theme, setTheme } = useTheme()
@@ -22,7 +23,7 @@ const Navbar = () => {
           className="flex cursor-pointer p-[.5rem] rounded-[50%] hover:bg-[#E4E6EB]"
         >
           <span>
-            <ReactIcon className='w-5 h-5' icon="RiMoonClearLine" />
+           <SiIterm2 className="w-5 h-5" />
           </span>
         </button>
       )
@@ -33,7 +34,7 @@ const Navbar = () => {
           className="flex cursor-pointer p-[.5rem] rounded-[50%] hover:bg-[#65676B]"
         >
           <span>
-            <ReactIcon className='w-5 h-5' icon="ImSun" />
+           <SiMultisim className="w-5 h-5" />
           </span>
         </button>
       )
