@@ -46,7 +46,7 @@ const Navbar = () => {
           href="/"
           className="text-[#050505] cursor-pointer dark:text-[#E4E6EB] font-bold"
         >
-          Emojis..Lots of Emojis..
+         📱 Emojis. Lots of Emojis.
         </Link>
         {renderThemeChanger()}
       </nav>
