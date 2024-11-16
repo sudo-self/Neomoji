@@ -42,8 +42,8 @@ const Hero = () => {
 export default Hero
 
 const profile = {
-  name: 'Emoji Bro',
-  bio: 'Tap Copy Emoji Bro. 😎',
+  name: 'The One',
+  bio: 'choice is an illusion. 😎',
   imageUrl: profileIMG,
   coverImageUrl: bgIMG,
 }
