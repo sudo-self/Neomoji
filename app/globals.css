@@ -9,12 +9,14 @@
 
   body {
     font-family: 'Poppins', sans-serif;
+    background-color: #0a0f0f; 
+    color: #00ff00; 
   }
 }
 
 @layer components {
   .container {
-      @apply max-w-[900px] mx-auto pl-[0.5rem] pr-[0.5rem]
+    @apply max-w-[900px] mx-auto pl-[0.5rem] pr-[0.5rem];
   }
 
   .item-copy {
@@ -31,9 +33,9 @@
 }
 
 .selector {
-  --first-color: #5ddcff;
-  --second-color: #3c67e3;
-  --third-color: #4e00c2;
+  --first-color: #00ff00; 
+  --second-color: #4caf50;
+  --third-color: #2c6e2f;
 }
 
 @property --rotate {
@@ -41,12 +43,14 @@
   initial-value: 132deg;
   inherits: false;
 }
+
 .selector::before,
 .selector::after {
   opacity: 0;
   content: '';
   transition: all 0.5s ease-in-out;
 }
+
 .selector:hover::before,
 .selector:hover::after {
   position: absolute;
@@ -60,6 +64,7 @@
   animation: spin 2.5s linear infinite;
   opacity: 1;
 }
+
 .selector:hover::before {
   width: 104%;
   height: 104%;
@@ -67,15 +72,7 @@
   top: -2%;
   left: -2%;
 }
-/* .selector:hover::after {
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  transform: scale(0.9);
-  filter: blur(70px);
-} */
+
 @keyframes spin {
   0% {
     --rotate: 0deg;
@@ -84,3 +81,4 @@
     --rotate: 360deg;
   }
 }
+
