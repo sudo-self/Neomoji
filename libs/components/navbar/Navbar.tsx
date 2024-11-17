@@ -52,7 +52,7 @@ const Navbar = () => {
         alt="Matrix Navigation"
         className="h-6 w-6"
       />
-      Why do my eyes hurt?
+      I'm going with you
     </Link>
     {renderThemeChanger()}
   </nav>
