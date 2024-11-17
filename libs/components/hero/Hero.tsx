@@ -1,7 +1,7 @@
 
 import React from 'react'
 
-import bgIMG from '../../../public/assets/bg.png'
+import bgIMG from '../../../public/assets/jesse.gif'
 import profileIMG from '../../../public/assets/jesse.jpeg'
 
 const Hero = () => {
