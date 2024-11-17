@@ -9,6 +9,7 @@ export default function Head() {
       />
       <meta name="description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
       <meta property="og:title" content="NeoMoji 🌌" />
+      <meta property="og:site_name" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived.">
       <meta property="og:url" content="https://NeoMoji.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
