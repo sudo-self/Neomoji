@@ -45,7 +45,7 @@ const profile = {
  name: 'Neomoji',
   bio: (
     <span>
-      N&nbsp;E&nbsp;<img src="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/0_neon.giff" alt="Matrix Navigation" className="inline h-6 w-6" />
+    <img src="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/matrix-monitors.gif" />
     </span>
   ),
   imageUrl: profileIMG,
