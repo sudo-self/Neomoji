@@ -1,3 +1,3 @@
 export async function GET(request: Request) {
-  return new Response('It has already begun!')
+  return new Response('Morpheus: The body cannot live without the mind.')
 }
