@@ -1,20 +1,33 @@
 export default function Head() {
   return (
     <>
+      {/* General Meta Tags */}
       <title>NeoMoji 🌌</title>
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         name="keywords"
         content="NeoMoji, emoji matrix, emoji database, fun emojis, emoji sharing, emoji copy, emoji collection, emoticons, online fun, matrix display, icons, social media"
       />
       <meta name="description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
+      <meta name="theme-color" content="#ffffff" />
+
+      {/* Open Graph Meta Tags */}
       <meta property="og:title" content="NeoMoji 🌌" />
-      <meta property="og:site_name" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived.">
+      <meta property="og:site_name" content="NeoMoji" />
       <meta property="og:url" content="https://NeoMoji.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
       <meta property="og:image" content="https://NeoMoji.vercel.app/assets/image.png" />
 
+      {/* Twitter Meta Tags */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta property="twitter:domain" content="NeoMoji.vercel.app" />
+      <meta property="twitter:url" content="https://NeoMoji.vercel.app/" />
+      <meta name="twitter:title" content="NeoMoji 🌌" />
+      <meta name="twitter:description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
+      <meta name="twitter:image" content="https://NeoMoji.vercel.app/assets/image.png" />
+
+      {/* Icons and PWA */}
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -39,23 +52,6 @@ export default function Head() {
         color="#5bbad5"
       />
       <meta name="msapplication-TileColor" content="#da532c" />
-      <meta name="theme-color" content="#ffffff" />
-
-      {/* Facebook Meta Tags */}
-      <meta property="og:url" content="https://NeoMoji.vercel.app/" />
-      <meta property="og:title" content="NeoMoji 🌌" />
-      <meta property="og:description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
-      <meta property="og:image" content="https://NeoMoji.vercel.app/assets/image.png" />
-
-      {/* Twitter Meta Tags */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta property="twitter:domain" content="NeoMoji.vercel.app" />
-      <meta property="twitter:url" content="https://NeoMoji.vercel.app/" />
-      <meta name="twitter:title" content="NeoMoji 🌌" />
-      <meta name="twitter:description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
-      <meta name="twitter:image" content="https://NeoMoji.vercel.app/assets/image.png" />
     </>
   );
 }
-
-
