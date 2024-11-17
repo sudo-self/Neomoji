@@ -39,7 +39,7 @@ const Emoji = ({ emoji }: EmojiProps) => {
       >
         <div className="flex items-center space-x-1 bg-black rounded-full text-white text-[15px] pl-2 pr-4 py-2 font-semibold">
           <ReactIcon icon="RiCheckboxCircleFill" className="w-5 h-5" />
-          <span>Hello Mr. Anderson!</span>
+          <span>✨☝️</span>
         </div>
       </div>
     </div>
