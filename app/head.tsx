@@ -1,8 +1,8 @@
 export default function Head() {
   return (
     <>
-      {/* General Meta Tags */}
-      <title>NeoMoji 🌌</title>
+
+      <title>NeoMoji</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         name="keywords"
@@ -11,7 +11,7 @@ export default function Head() {
       <meta name="description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
       <meta name="theme-color" content="#ffffff" />
 
-      {/* Open Graph Meta Tags */}
+    
       <meta property="og:title" content="NeoMoji 🌌" />
       <meta property="og:site_name" content="NeoMoji" />
       <meta property="og:url" content="https://NeoMoji.vercel.app/" />
@@ -19,7 +19,7 @@ export default function Head() {
       <meta property="og:description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
       <meta property="og:image" content="https://NeoMoji.vercel.app/assets/image.png" />
 
-      {/* Twitter Meta Tags */}
+ 
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:domain" content="NeoMoji.vercel.app" />
       <meta property="twitter:url" content="https://NeoMoji.vercel.app/" />
@@ -27,7 +27,7 @@ export default function Head() {
       <meta name="twitter:description" content="Discover the ultimate Matrix-themed emoji database. NeoMoji has arrived." />
       <meta name="twitter:image" content="https://NeoMoji.vercel.app/assets/image.png" />
 
-      {/* Icons and PWA */}
+ 
       <link
         rel="apple-touch-icon"
         sizes="180x180"
