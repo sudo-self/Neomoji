@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
-    "@types/node": "18.14.6",
+    "@types/node": "22.14.1",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.35.0",
