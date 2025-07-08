@@ -42,17 +42,20 @@ const Hero = () => {
 export default Hero
 
 const profile = {
- name: 'Neomoji',
+  name: 'Neomoji',
   bio: (
-    <span>
-    <img src="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/matrix-monitors.gif" />
+    <span className="inline-flex items-center gap-2">
+      <img
+        src="https://neomoji.vercel.app/phone.svg"
+        alt="Phone Icon"
+        className="w-5 h-5"
+      />
+      Neomoji
     </span>
   ),
   imageUrl: profileIMG,
   coverImageUrl: bgIMG,
 }
-
-
 
 
 

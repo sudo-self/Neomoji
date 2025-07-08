@@ -21,7 +21,7 @@ const ScrollToTopButton = () => {
           className="fixed bottom-6 right-6 z-50 cursor-pointer"
         >
           <img
-            src="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/elevator.png"
+            src="https://neomoji.vercel.app/tothetop.png"
             alt="Scroll to top"
             className="w-12 h-12"
           />

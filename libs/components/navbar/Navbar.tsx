@@ -48,7 +48,7 @@ const Navbar = () => {
       className="text-[#050505] cursor-pointer dark:text-[#E4E6EB] font-bold flex items-center gap-2"
     >
       <img
-        src="https://pub-c1de1cb456e74d6bbbee111ba9e6c757.r2.dev/matrix_navigation.gif"
+        src="https://neomoji.vercel.app/Matrix.svg"
         alt="Matrix Navigation"
         className="h-6 w-6"
       />
