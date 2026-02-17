@@ -1,13 +1,15 @@
 [
   {
     "relation": [
-      "delegate_permission/common.handle_all_urls"
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
     ],
     "target": {
       "namespace": "android_app",
       "package_name": "app.vercel.neomoji.twa",
       "sha256_cert_fingerprints": [
-        "8B:16:63:C5:40:FE:F0:30:8C:DA:E3:33:58:8C:EF:BC:91:92:63:81:95:E2:34:03:5D:24:EB:7C:43:CA:3D:FF"
+        "8B:16:63:C5:40:FE:F0:30:8C:DA:E3:33:58:8C:EF:BC:91:92:63:81:95:E2:34:03:5D:24:EB:7C:43:CA:3D:FF",
+        "95:F9:05:01:29:3A:37:E6:63:B1:1F:8E:CF:5B:1C:25:7C:8B:FB:B6:03:4A:0B:16:1C:63:B0:76:0A:41:01:E6"
       ]
     }
   }
